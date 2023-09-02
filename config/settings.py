@@ -141,3 +141,8 @@ MEDIA_ROOT = BASE_DIR / 'media'
 # Cart setting
 
 CART_SESSION_ID = 'cart'
+
+
+# SMTP configuration
+
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
